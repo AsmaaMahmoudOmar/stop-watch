@@ -1,0 +1,16 @@
+.container{
+    /* background-image: url(../images/pexels-photo-103305.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+   background-position: center; */
+   background-color: #000;
+}
+
+i{
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 15px;
+    cursor: pointer;
+}

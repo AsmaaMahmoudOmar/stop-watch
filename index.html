@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>stop watch</title>
+  </head>
+  <body class="bg-body-tertiary">
+   <header class="d-flex justify-content-center align-items-center min-vh-100">
+    <div class="container col-md-4 text-white text-center p-5">
+      <h1 id="timeHour">
+       00 : 00 : 00
+      </h1>
+
+      <div>
+        <i class="fa-solid fa-circle-pause text-secondary" onclick="stopWatch()"></i>
+        <i class="fa-solid fa-circle-play text-warning" onclick="startWatch()" ></i>
+        <i class="fa-solid fa-rotate-left text-secondary" onclick="refresh()"></i>
+      </div>
+
+    </div>
+  </header>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
